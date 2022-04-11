@@ -1,5 +1,9 @@
 package com.cg.git;
 
+/**
+ * @author Adrick
+ *
+ */
 public class Example1 {
 
 	public static void main(String[] args) {
