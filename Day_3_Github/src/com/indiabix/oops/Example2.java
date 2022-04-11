@@ -9,7 +9,7 @@ public class Example2 {
 	}
 	void display()
 	{
-		System.out.println("This is" + name);
+		System.out.println("This is " + name);
 	}
 
 	public static void main(String[] args) {
