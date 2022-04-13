@@ -9,5 +9,4 @@ public class Example2 {
 		Example1 e=new Example1();
 		e.display();
 	}
-
 }
