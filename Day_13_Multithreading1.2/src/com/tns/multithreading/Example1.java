@@ -1,7 +1,7 @@
 package com.tns.multithreading;
 
 class Parent
-{
+{ //classs
 	void print(int num)
 	{
 		synchronized(this)

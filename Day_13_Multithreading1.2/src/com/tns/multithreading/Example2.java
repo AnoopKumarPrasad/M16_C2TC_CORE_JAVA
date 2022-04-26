@@ -1,6 +1,6 @@
 package com.tns.multithreading;
 
-class Parents extends Thread
+class Parents extends Thread //thread
 {
 	public void run()
 	{
