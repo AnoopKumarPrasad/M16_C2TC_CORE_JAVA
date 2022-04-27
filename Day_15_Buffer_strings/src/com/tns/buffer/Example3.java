@@ -1,13 +1,13 @@
-package com.own.problem;
+package com.tns.buffer;
 
 import java.util.Scanner;
 
-public class robotmn {
+public class Example3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
-		StringBuilder = b new StringBuilder(s.nextLine());
+		StringBuilder sh=new StringBuilder(s.nextLine());
 		System.out.println(sh.capacity());
 		
 	}
