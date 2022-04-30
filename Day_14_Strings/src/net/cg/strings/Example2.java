@@ -10,7 +10,7 @@ public class Example2 {
 		String str2="Hi";
 		System.out.println(str1=str2);
 		//Scanner is a object for class S
-		//(strl.equals(strl2)
+		//can use (strl.equals(strl2)
 			}
 
 }
