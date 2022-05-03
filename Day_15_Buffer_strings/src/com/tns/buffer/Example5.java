@@ -1,17 +1,22 @@
 package com.tns.buffer;
 
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Example5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//StringTokenizer st=new StringTokenizer("Merry GO Round");
-		StringTokenizer st=new StringTokenizer("Let,s,try@this","@"); //string, delimiter
-		while(st.hasMoreTokens())
+		String str="Dhoni";
+		Scanner s=new Scanner(System.in);
+		String str1=s.nextLine();
+		if(str.equals(str1))
 		{
-		System.out.println(st.nextToken());
-	}}
-	
+			System.out.println("Matching");
+		}
+		else
+		{
+			System.out.println("Not Matching");
+		}
+
+	}
 
 }

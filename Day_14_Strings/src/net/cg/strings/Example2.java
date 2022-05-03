@@ -9,6 +9,7 @@ public class Example2 {
 		String str1="Hi";
 		String str2="Hi";
 		System.out.println(str1=str2);
+		System.out.println(str1.equals(str2)); //to do task
 		//Scanner is a object for class S
 		//can use (strl.equals(strl2)
 			}

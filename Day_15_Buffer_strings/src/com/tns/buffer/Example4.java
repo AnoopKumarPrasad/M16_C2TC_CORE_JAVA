@@ -1,15 +1,19 @@
 package com.tns.buffer;
 
-import java.util.StringTokenizer;
 
 public class Example4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//StringTokenizer st=new StringTokenizer("Merry GO Round");
-		StringTokenizer st=new StringTokenizer("Let,s,try@this","@"); //string, delimiter
-		System.out.println(st.nextToken());
-		System.out.println(st.nextToken());
+		String str="Anoop Kumar";
+		String str1="Prasad";
+		System.out.println(str.charAt(4));
+		System.out.println(str.toLowerCase());
+		System.out.println(str.toUpperCase());
+		System.out.println(str+" "+str1);
+		System.out.println(str+" ".concat(str1));
+		//String s = 50+20+50 + "error" +"Anoop"+ 50 + 50 + 20+"Shiwani";  
+		//System.out.println(s);
+		
 	}
 
 }
