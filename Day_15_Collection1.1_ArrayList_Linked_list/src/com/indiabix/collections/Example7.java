@@ -10,7 +10,7 @@ public class Example7 {
 		ArrayList a=new ArrayList();
 		a.add(11);
 		a.add("Anoop");
-		Vector v=new Vector;
+		Vector v=new Vector();
 		v.addAll(a);
 		System.out.println(a);
 	}
